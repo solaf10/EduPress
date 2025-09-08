@@ -1,0 +1,69 @@
+.courses-control {
+  padding: 56px 0px 50px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-weight: 600;
+      font-size: 36px;
+      text-transform: capitalize;
+    }
+    .controllers {
+      display: flex;
+      align-items: center;
+      .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input {
+          border: none;
+          border-bottom: 1px solid black;
+          width: 100%;
+          padding: 5px;
+          caret-color: var(--Primary);
+          ::placeholder {
+            color: #9d9d9d;
+          }
+        }
+        input:focus {
+          outline: none;
+        }
+        .icon {
+          font-size: 20px;
+          color: black;
+          transform: translateX(-20px);
+        }
+      }
+      .layout {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .icon {
+          font-size: 20px;
+          cursor: pointer;
+          transition: 0.5s;
+        }
+        .icon:hover {
+          color: var(--Primary);
+        }
+        .active {
+          color: var(--Primary);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .courses-control {
+    .container {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 32px;
+      .controllers {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  }
+}

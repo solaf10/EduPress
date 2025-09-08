@@ -1,0 +1,8 @@
+.all-courses {
+  .container {
+    .cards {
+      row-gap: 30px;
+      margin-bottom: 70px;
+    }
+  }
+}

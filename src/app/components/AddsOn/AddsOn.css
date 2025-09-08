@@ -1,0 +1,57 @@
+.adds-on {
+  height: 350px;
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 20px;
+    background-image: url("/assets/images/Adds-on-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .text {
+      padding: 50px;
+      width: 50%;
+      .title {
+        display: flex;
+        flex-direction: column;
+        span:first-child {
+          color: var(--Dark_gray);
+          font-weight: 600;
+        }
+        span:last-child {
+          font-size: 32px;
+          font-weight: 600;
+        }
+      }
+      p {
+        margin: 20px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.7;
+        color: var(--Dark_gray);
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .adds-on {
+    .container {
+      width: 100%;
+      max-width: unset;
+      border-radius: 0px;
+      padding: 0px;
+      margin: 0px;
+      background-image: linear-gradient(
+        103.63deg,
+        #b5ffe7 1.83%,
+        #fdc1c1 98.92%
+      );
+      text-align: center;
+      .text {
+        width: 100%;
+      }
+    }
+  }
+}

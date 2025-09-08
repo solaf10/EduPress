@@ -1,0 +1,32 @@
+.statistics {
+  padding-top: var(--section-pd);
+  padding-bottom: var(--section-pd);
+  .container {
+    .card {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      border: none;
+      border-radius: 20px;
+      text-align: center;
+      background-color: var(--White_grey);
+      p,
+      h3 {
+        margin: 0px;
+      }
+      h3 {
+        margin-bottom: 16px;
+        font-weight: 600;
+        font-size: 32px;
+        text-transform: capitalize;
+        color: var(--Primary);
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+.statistics .container .row {
+  row-gap: 1.5rem;
+}

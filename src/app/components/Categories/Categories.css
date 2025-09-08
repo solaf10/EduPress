@@ -1,0 +1,30 @@
+.categories {
+  padding-top: var(--section-pd);
+  padding-bottom: var(--section-pd);
+  .container {
+    .cards {
+      row-gap: 30px;
+    }
+    > .all-btn {
+      display: none;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .categories {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .top-title {
+        .all-btn {
+          display: none;
+        }
+      }
+      > .all-btn {
+        display: block;
+        margin-top: 25px;
+      }
+    }
+  }
+}

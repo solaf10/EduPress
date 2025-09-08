@@ -1,0 +1,95 @@
+.course-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+
+  .category {
+    padding: 8px 12px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: black;
+  }
+  .image {
+    img {
+      width: 100%;
+      height: 250px;
+    }
+  }
+  p,
+  h3 {
+    margin: 0px;
+  }
+  .content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .info {
+      .instructor {
+        font-weight: 400;
+        margin-bottom: 10px;
+        span {
+          color: var(--Dark_gray);
+        }
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .statics {
+        padding: 16px 0px;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        border-bottom: 1px solid #eaeaea;
+        > div {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          .icon {
+            font-size: 18px;
+            color: var(--Primary);
+            margin-bottom: 3px;
+          }
+          p {
+            font-weight: 400;
+            color: var(--Dark_gray);
+          }
+        }
+        .students {
+          .icon {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .footer {
+      padding-top: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .more {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .price {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        .sale {
+          color: var(--Green);
+        }
+      }
+    }
+  }
+}

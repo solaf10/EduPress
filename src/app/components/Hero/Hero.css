@@ -1,0 +1,71 @@
+/* landing-hero */
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - var(--nav-height));
+  background-image: url(/assets/images/landing-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 2.7vw;
+    .text {
+      width: 50%;
+      h1 {
+        font-size: 48px;
+        font-weight: 600;
+      }
+      p {
+        margin: 24px 0px 20px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+      }
+      button {
+        /* font-size: 17px; */
+      }
+    }
+    .image {
+      /* position: relative; */
+      width: 50%;
+      img {
+        width: 100%;
+      }
+      /* img.bg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+      }
+      img:not(.bg) {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+      } */
+    }
+  }
+}
+/* .hero .text {
+  width: 50%;
+  padding-left: 70px;
+} */
+@media (max-width: 993px) {
+  .hero {
+    justify-content: center;
+  }
+  .hero .container .text {
+    text-align: center;
+    width: 100%;
+  }
+  .hero .container .image {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .hero .container .text h1 {
+    font-size: 32px;
+  }
+}

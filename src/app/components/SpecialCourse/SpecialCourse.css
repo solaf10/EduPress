@@ -1,0 +1,61 @@
+.special-course {
+  .container {
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    .image {
+      width: 50%;
+    }
+    .text {
+      width: 50%;
+      h2 {
+        /* width: 50%; */
+        font-weight: 600;
+        font-size: 32px;
+        text-transform: capitalize;
+      }
+      .desc {
+        margin: 24px 0px 16px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.7;
+        color: var(--Dark_gray);
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        li {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          p {
+            margin: 0px;
+            font-weight: 400;
+            font-size: 18px;
+          }
+          .icon {
+            margin-bottom: 3px;
+            color: var(--Green);
+          }
+        }
+      }
+      button {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .special-course .container {
+    flex-wrap: wrap;
+    gap: 30px;
+    .text,
+    .image {
+      width: 100%;
+    }
+    .image {
+      order: 2;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.pagenation-controllers {
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  button {
+    min-width: unset;
+    padding: 10px 20px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: black;
+    background-color: transparent;
+    border: 1px solid var(--Light_grey, #eaeaea);
+  }
+  button.disabled {
+    color: #aaa;
+    border-color: #ddd;
+    cursor: not-allowed;
+    background-color: #f5f5f5;
+  }
+  button.disabled:hover .icon {
+    color: inherit;
+  }
+  .arrow {
+    .icon {
+      transition: 0.5s;
+      font-size: 20px;
+    }
+  }
+  .arrow:hover .icon {
+    color: var(--Primary);
+  }
+  .controllers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    button {
+      transition: 0.5s;
+    }
+    button:hover,
+    button.active {
+      color: white;
+      background-color: black;
+    }
+  }
+}

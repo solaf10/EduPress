@@ -1,0 +1,40 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  input:not([type="checkbox"], .button) {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 1px solid var(--Grey, #9d9d9d);
+    caret-color: var(--Primary);
+    ::placeholder {
+      color: #9d9d9d;
+    }
+  }
+  input:focus {
+    outline: none;
+  }
+  .password-holder {
+    position: relative;
+    .icon-holder {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 12px;
+      .icon {
+        cursor: pointer;
+        color: #9d9d9d;
+      }
+    }
+  }
+  input[type="checkbox"] {
+    margin-right: 5px;
+    accent-color: var(--Primary);
+  }
+  .button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
