@@ -28,9 +28,8 @@ const AllCourses = () => {
           name={course.name}
           price={course.price}
           discount={course.discount}
-          duration={course.info.duration}
-          studentsNum={course.info.studentsNum}
-          instructor={course.instructorName}
+          info={course.info}
+          instructorName={course.instructorName}
           img={course.img}
         />
       </div>
