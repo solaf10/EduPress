@@ -1,8 +1,15 @@
-import { coursesState } from "@/app/interfaces";
-import CourseHero from "./components/CourseHero/CourseHero";
+"use client";
+import { useParams, useRouter } from "next/navigation";
+import Overview from "./overview/page";
+import { useEffect } from "react";
 
 const CoursePage = () => {
-  return <div className="course-page"></div>;
+  const router = useRouter();
+  const id = useParams().courseID;
+  useEffect(() => {
+    router.push(id + "/overview");
+  }, []);
+  // return <Overview />;
 };
 
 export default CoursePage;

@@ -1,0 +1,62 @@
+.comment {
+  padding-bottom: 100px;
+  .container {
+    .title {
+      margin-bottom: 30px;
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 12px;
+      }
+      p {
+        color: var(--Dark_gray);
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+    form {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      > input:not([type="submit"]) {
+        width: calc(50% - 10px);
+      }
+      textarea {
+        resize: none;
+        height: 110px;
+      }
+      textarea,
+      .save {
+        width: 100%;
+      }
+      input,
+      textarea {
+        padding: 11px 16px;
+        border-radius: 8px;
+        border: 1px solid var(--Grey, #9d9d9d);
+        caret-color: var(--Primary);
+      }
+      input:focus,
+      textarea:focus {
+        outline: none;
+      }
+      ::placeholder {
+        color: #9d9d9d;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .save {
+        color: var(--Dark_gray);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        accent-color: var(--Primary);
+      }
+      .button {
+        border-radius: 24px;
+        border: none;
+      }
+    }
+  }
+}

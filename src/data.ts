@@ -3,7 +3,7 @@ import { Instructor, SingleCourse } from "./app/interfaces";
 export const courses: Array<SingleCourse> = [
   {
     id: 1,
-    img: "/courses/course1.jpg",
+    img: "/assets/images/course-1.png",
     name: "Web Development Bootcamp",
     instructorName: "John Smith",
     category: "Development",
@@ -43,7 +43,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 2,
-    img: "/courses/course2.jpg",
+    img: "/assets/images/course-1.png",
     name: "UI/UX Design Masterclass",
     instructorName: "Emily Johnson",
     category: "Design",
@@ -123,7 +123,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 4,
-    img: "/courses/course4.jpg",
+    img: "/assets/images/course-1.png",
     name: "Python for Data Science",
     instructorName: "Sarah Brown",
     category: "Data Science",
@@ -163,7 +163,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 5,
-    img: "/courses/course5.jpg",
+    img: "/assets/images/course-1.png",
     name: "Digital Marketing Essentials",
     instructorName: "David Wilson",
     category: "Marketing",
@@ -203,7 +203,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 6,
-    img: "/courses/course6.jpg",
+    img: "/assets/images/course-1.png",
     name: "Photography Fundamentals",
     instructorName: "Sophia Martinez",
     category: "Photography",
@@ -243,7 +243,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 7,
-    img: "/courses/course7.jpg",
+    img: "/assets/images/course-1.png",
     name: "Business Analytics with Excel",
     instructorName: "James Anderson",
     category: "Business",
@@ -283,7 +283,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 8,
-    img: "/courses/course8.jpg",
+    img: "/assets/images/course-1.png",
     name: "3D Modeling with Blender",
     instructorName: "Olivia Taylor",
     category: "Design",
@@ -323,7 +323,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 9,
-    img: "/courses/course9.jpg",
+    img: "/assets/images/course-1.png",
     name: "Cybersecurity Basics",
     instructorName: "Daniel Clark",
     category: "Security",
@@ -363,7 +363,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 10,
-    img: "/courses/course10.jpg",
+    img: "/assets/images/course-1.png",
     name: "Mobile App Development with Flutter",
     instructorName: "Sophia White",
     category: "Development",
@@ -403,7 +403,7 @@ export const courses: Array<SingleCourse> = [
   },
   {
     id: 11,
-    img: "/assets/images/course-11.png",
+    img: "/assets/images/course-1.png",
     name: "Node.js Masterclass",
     instructorName: "Daniel Green",
     category: "Backend Development",
@@ -469,7 +469,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 12,
-    img: "/assets/images/course-12.png",
+    img: "/assets/images/course-1.png",
     name: "Fullstack with MERN",
     instructorName: "Sophia Brown",
     category: "Web Development",
@@ -536,7 +536,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 13,
-    img: "/assets/images/course-13.png",
+    img: "/assets/images/course-1.png",
     name: "UI/UX Design Essentials",
     instructorName: "Liam Davis",
     category: "Design",
@@ -601,7 +601,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 14,
-    img: "/assets/images/course-14.png",
+    img: "/assets/images/course-1.png",
     name: "Data Structures & Algorithms",
     instructorName: "Olivia White",
     category: "Computer Science",
@@ -664,7 +664,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 15,
-    img: "/assets/images/course-15.png",
+    img: "/assets/images/course-1.png",
     name: "Python for Data Science",
     instructorName: "Emma Wilson",
     category: "Data Science",
@@ -731,7 +731,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 16,
-    img: "/assets/images/course-16.png",
+    img: "/assets/images/course-1.png",
     name: "Machine Learning A-Z",
     instructorName: "James Miller",
     category: "AI & ML",
@@ -798,7 +798,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 17,
-    img: "/assets/images/course-17.png",
+    img: "/assets/images/course-1.png",
     name: "Cloud Computing with AWS",
     instructorName: "Sophia Turner",
     category: "Cloud",
@@ -863,7 +863,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 18,
-    img: "/assets/images/course-18.png",
+    img: "/assets/images/course-1.png",
     name: "Cybersecurity Fundamentals",
     instructorName: "Robert Hall",
     category: "Cybersecurity",
@@ -929,7 +929,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 19,
-    img: "/assets/images/course-19.png",
+    img: "/assets/images/course-1.png",
     name: "React Native Mobile Apps",
     instructorName: "Chloe Martin",
     category: "Mobile Development",
@@ -995,7 +995,7 @@ export const courses: Array<SingleCourse> = [
 
   {
     id: 20,
-    img: "/assets/images/course-20.png",
+    img: "/assets/images/course-1.png",
     name: "Docker & Kubernetes",
     instructorName: "Ethan Scott",
     category: "DevOps",

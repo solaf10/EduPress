@@ -2,7 +2,7 @@ import "./Comment.css";
 
 const Comment = () => {
   return (
-    <div>
+    <div className="comment">
       <div className="container">
         <div className="title">
           <h2>Leave a comment</h2>
@@ -21,7 +21,7 @@ const Comment = () => {
               Save my name, email in this brower for the next time I comment
             </label>
           </div>
-          <input type="submit" value="Posts comment" />
+          <input className="button" type="submit" value="Posts comment" />
         </form>
       </div>
     </div>

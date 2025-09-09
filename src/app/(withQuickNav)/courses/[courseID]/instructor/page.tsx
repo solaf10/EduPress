@@ -33,16 +33,16 @@ const Instructor = () => {
       <div className="quote">{instructor?.quote}</div>
       <div className="links">
         <span className="links-title">Follow:</span>
-        <a href={instructor?.socialMediaLinks.facebook}>
+        <a target="_blank" href={instructor?.socialMediaLinks.facebook}>
           <FaFacebookF className="icon" />
         </a>
-        <a href={instructor?.socialMediaLinks.pinterest}>
+        <a target="_blank" href={instructor?.socialMediaLinks.pinterest}>
           <FaPinterestP className="icon" />
         </a>
-        <a href={instructor?.socialMediaLinks.instagram}>
+        <a target="_blank" href={instructor?.socialMediaLinks.instagram}>
           <AiFillInstagram className="icon" />
         </a>
-        <a href={instructor?.socialMediaLinks.youtube}>
+        <a target="_blank" href={instructor?.socialMediaLinks.youtube}>
           <FaYoutube className="icon" />
         </a>
       </div>

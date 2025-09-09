@@ -79,6 +79,10 @@
       .more {
         font-size: 18px;
         font-weight: 500;
+        transition: 0.5s;
+      }
+      .more:hover {
+        color: var(--Primary);
       }
       .price {
         display: flex;

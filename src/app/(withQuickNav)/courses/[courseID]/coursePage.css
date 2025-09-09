@@ -15,6 +15,10 @@
           border-bottom: 1px solid #eaeaea;
           line-height: normal;
           height: unset;
+          transition: 0.5s;
+        }
+        a:hover {
+          color: var(--Primary);
         }
         a:first-child {
           border-left: none;
